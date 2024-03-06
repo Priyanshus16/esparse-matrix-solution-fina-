@@ -1,0 +1,185 @@
+.contactus-cnt1{
+    width: 90%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+  }
+  .map{
+    width: 45%;
+  }
+  .get-in-touch{
+    width: 55%;
+  }
+  .form1{
+    width: 600px;
+    height: 480px;
+    background-color: #F5F4F0;
+    display: grid;
+    padding-left: 30px;
+  }
+  .contact-us{
+    width: 200px;
+    height: 75px;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* margin-left: 9%; */
+  }
+  .contactus-detail{
+    height: 30px;
+    width: 200px;
+    text-align: left;
+    display: flex;
+      flex-direction: column-reverse;
+    display: flex;
+    font-weight: 600;
+    /* margin: 20px; */
+      /* position: relative; */
+      padding-top: 1.5rem;
+    margin-top: 40px;
+  }
+  .contactus-input-box{
+    width: 250px;
+    border: 0;
+      z-index: 1;
+      background-color: transparent;
+      border-bottom: 2px solid grey; 
+      font: inherit;
+      font-size: 0.9rem;
+      padding: .25rem 0;
+      &:focus, &:valid {
+          outline: 0;
+          border-bottom-color: grey;
+          &+.input-label {
+              color: #6658d3;
+              transform: translateY(-1.5rem);
+          }
+      }
+  }
+  .contact-us{
+    grid-row: 1 / 2;
+  }
+  .a2{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+  .b2{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+  .c2{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4 ;
+  }
+  .d2{
+    grid-column: 2 / 3 ;
+    grid-row: 3 / 4;
+  }
+  .e2{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    height: 60px;
+  }
+  .contactus-comment{
+    min-height: 75px;
+    min-width: 540px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    resize: none; 
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid grey;
+  }
+  .contactus-submit{
+    margin-top: 30px;
+    height: 70px;
+  }
+  .contactus-msg{
+    background-color: #F7EA82;
+    border-radius: 10px 10px 10px 0px;
+    border: transparent;
+    font-weight: 600;
+    width: 400px;
+    height: 45px;
+  }
+  @media only screen and (max-width:1150px){
+    .get-in-touch{
+      width: 100%;
+    }
+    .contactus-cnt1{
+      display: flex;
+      flex-direction: column;      
+      height: fit-content;
+      justify-content: center;
+      align-items: center;
+    }
+    .form1{
+      padding: 0;
+      padding-left:20px;
+    }
+    .map{
+      width: 600px;
+      height: 400px;
+    }
+    .map-image{
+      width: 600px;
+      height: 350px;
+    }
+  }
+  @media only screen and (max-width:650px) {
+    .form1{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: fit-content;
+      width: 350px;
+      padding: 0;
+      padding-left:20px;
+      padding-bottom: 20px;
+
+    }
+    .contactus-comment{
+      min-width: 250px;
+    }
+    .contactus-detail{
+      margin-top: 60px;
+    }
+    .contactus-msg{
+      width: 300px;
+    }
+    .map{
+      width: 90%;
+    }
+    .map-image{
+      width: 90%;
+      height: 80%;
+    }
+  }
+  @media only screen and (max-width:400px){
+    .form1{
+      width: 250px;
+    }
+    .contactus-input-box{
+      width: 200px;
+    }
+    .contactus-comment{
+      min-width: 200px;
+    }
+    .contactus-submit{
+      width: 150px;
+    }
+    .contactus-msg{
+      width: 150px;
+    }
+    .map-image{
+      height: 250px;
+    }
+    .map{
+      height: 300px;
+    }
+  }

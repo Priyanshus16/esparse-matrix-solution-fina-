@@ -1,0 +1,58 @@
+.wholediv{
+    background-color:#EBEAE6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-bottom: 70px;
+}
+
+
+.careerformmain {
+    width: 50%;
+    padding-left: 50px;
+}
+
+.communitymain {
+    padding: 2rem;
+    height: fit-content;
+    margin-left: 50px;
+    padding-left: 50px;
+    background-color: #F5F4F0;  
+    width: 40%;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.Carrierformheading {
+    width: 80%;
+}
+
+.checkbox {
+    padding-top: 10px;
+}
+
+.signupbtn {
+  width: 69%;
+  height: 45px;
+  background: #F7EA82;
+  border-radius: 5px 5px 5px 5px;
+}
+
+@media only screen and (max-width:850px) {
+    .wholediv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .communitymain {
+        width: 80%;
+        justify-content: center;
+    }
+    .careerformmain {
+        margin-top: 80px;
+        width: 80%;
+        justify-content: center;
+    }
+}

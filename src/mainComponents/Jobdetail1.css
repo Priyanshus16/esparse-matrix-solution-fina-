@@ -1,0 +1,99 @@
+.jobdetail{
+    width: 100%;
+    height: 1200px;
+}
+.jobname{
+    width: 90%;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: left;
+}
+.jobdescription{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.jobtype{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: #F5F4F0;
+}
+.jobinfo{
+    width: 90%;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+}
+.jobinfo-detail{
+    width: 90%;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.jobinfo-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F7EA82;
+    background-color: black;
+}
+.jobinfo-desc{
+    width: 80%;
+    height: 50px;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: left;
+}
+.employeetype{
+    font-weight: 400;
+    color: #0085FF;
+}
+.jobcontent{
+    width: 70%;
+    height: 700px;
+}
+.jobtitle{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: left;
+}
+.jobtitle1{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 50px;
+}
+.jobtitle2{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 50px;
+}
+.jobtitle-desc{
+    text-align: left;
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.jobtitle-desc1{
+    text-align: left;
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.jobtitle-desc2{
+    text-align: left;
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 14px;
+}

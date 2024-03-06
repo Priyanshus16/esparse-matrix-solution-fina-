@@ -1,0 +1,156 @@
+
+  .content{
+    width: 100%;
+  }
+  .cnt1{
+    height: 300px;
+  }
+ 
+  
+
+  
+  .cnt4{
+    width: 100%;
+    height: 650px;
+    background-color: #EBEAE6;
+  }
+  .event1{
+    width: 100%;
+    height: 45%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+  .news{
+    color: #EBEAE6;
+    font-size: 40px;
+    font-weight: 700;
+    width: 500px;
+    height: 70%;
+    text-align: left;
+    display: flex;
+    margin-top: 35px;
+    margin-left: 20px;
+    
+  }
+  .news1{
+    color: #EBEAE6;
+    width: 500px;
+    height: 150px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-right: 15px;
+  
+  }
+  .event2{
+    height: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    margin-top: -75px;
+  }
+  .cnt4-box{
+    width: 250px;
+    height: 350px;
+    background-color: #F5F4F0;
+    border-radius: 12px;
+  }
+  .eventname{
+    height: 265px;
+    width: 100%;
+  }
+  .eventname1{
+    height: 85px;
+    width: 100%;
+    background-color: black;
+    border-radius: 0px 0px 12px 12px;
+    color: #EBEAE6;
+    font-weight: 700;
+    padding-top: 10px;
+
+  }
+  .evntname{
+    height: 85px;
+    width: 100%;
+    background-color: #EBEAE6;
+    border-radius: 12px 12px 0px 0px;
+    font-weight: 700;
+    padding-top: 10px;
+  }
+  .evntname1{
+    height: 265px;
+    width: 100%;
+  }
+  .detail-cnt4{
+    width: 150px;
+    height: 30px;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: -45px;
+  }
+  .btn2{
+    width: 30px;
+    margin-top: -35px;
+    margin-left: 180px;
+  }
+  .btn3{
+    width: 30px;
+    height: 30px;
+    border-color: #F7EA82;
+    background-color: #F7EA82;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media only screen and (max-width: 800px) {
+    .event2{
+      height: fit-content;
+      margin: 0px ;
+      display: flex;
+      flex-direction: column;
+      
+      align-items: center;
+    }
+    .cnt4-box{
+      margin: 10px;
+    }
+    .event1{
+      height: 250px;
+      width: 100%;
+    
+    }
+    .cnt4{
+      height: fit-content;
+    }
+  }
+  @media only screen and (max-width: 620px){
+    .event1{
+      width: 100%;
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .news{
+      width: 80%;
+      margin-left: 10%;
+    }
+    .news1{
+      width: 80%;
+      margin-left: 10%;
+      margin-top: 5px;
+    }
+  
+  }
+  
+  
+  

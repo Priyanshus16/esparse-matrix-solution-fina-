@@ -1,0 +1,210 @@
+.manufacturing{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.manufact-heading1{
+    width: 90%;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: left;
+    margin-top: 20px;
+}
+.manufact-para{
+    width: 90%;
+    font-weight: 500;
+    text-align: left;
+    background-color: #F5F4F0;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 40px 0px;
+}
+.manufact-heading2{
+    width: 90%;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: left;
+    margin-top: 40px;
+}
+.manufact-box-container{
+    width: 90%;
+    height: fit-content;
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.manufact-box{
+    width: 300px;
+    height: 250px;
+    background-color: #F5F4F0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.manufact-box-logo{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50px;
+    margin-left: -180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.manufact-box-heading{
+    width: 80%;
+    text-align: left;
+    font-weight: 700;
+}
+.manufact-box-para{
+    width: 80%;
+    text-align: left;
+    font-weight: 500;
+}
+.client{
+    height: 450px;
+}
+.client-content{
+    height: 300px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+.client-detail{
+    width: 90%;
+    height: 100px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.client-heading{
+    color: #EBEAE6;
+    width: 300px;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: left;
+    margin-top: 20px;
+}
+.client-para{
+    width: 500px;
+    color: #EBEAE6;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 20px;
+}
+.client-box-container{
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+.client-box{
+    width: 150px;
+    height: 150px;
+    background-color: #F5F4F0;
+    border-radius: 10px;
+}
+@media only screen and (max-width:1050px){
+    .manufact-box{
+        margin: 40px 0px;
+    }
+    .manufact-box-container{
+        display: grid;
+        /* grid-template-rows: 300px 300px;
+        grid-template-columns: 330px 330px; */
+        justify-items: center;
+        align-content: center;
+    }
+    .a5{
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    .b5{
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    .c5{
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+    }
+    .client-box-container{
+        display: grid;
+        grid-template-rows: 180px 180px;
+        grid-template-columns: 180px 180px 180px;
+        justify-items: center;
+        align-content: center;
+    }
+    .client{
+        height: 550px;
+    }
+}
+@media only screen and (max-width:700px){
+    .manufact-box-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media only screen and (max-width:550px){
+    .client-box-container{
+        display: grid;
+        grid-template-rows: 180px 180px 180px;
+        grid-template-columns: 180px 180px;
+    }
+    .client{
+        height: 850px;
+    }
+    .client-heading{
+        height: fit-content;
+        width: 100%;
+        text-align: center;
+    }
+    .client-para{
+        height: fit-content;
+        width: 100%;
+        text-align: center;
+    }
+    .client-detail{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-content: center;
+
+    }
+}
+@media only screen and (max-width:350px){
+    .client-box-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .client{
+        height: 1300px;
+    }
+    .client-box{
+        margin: 10px 0px;
+    }
+    .client-content{
+        height: 250px;
+    }
+    .manufact-box{
+        width: 250px;
+    }
+    .manufact-heading2{
+        font-size: 30px;
+    }
+}
