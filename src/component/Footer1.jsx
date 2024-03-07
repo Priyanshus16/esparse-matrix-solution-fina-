@@ -39,23 +39,23 @@ export default function Footer1() {
 
       <div id="footer1">
         {/* <!-- f --> */}
-        <footer class="text-center text-lg-start  text-muted">
+        <footer className="text-center text-lg-start  text-muted">
           {/* <!-- Section: Social media --> */}
-          <section class="d-flex justify-content-center justify-content-lg-between p-3 " />
+          <section className="d-flex justify-content-center justify-content-lg-between p-3 " />
 
           {/* </section>  */}
           {/* <!-- Section: Social media --> */}
 
           {/* <!-- Section: Links  --> */}
-          <section class="">
-            <div class="container text-center text-md-start mt-5">
+          <section className="">
+            <div className="container text-center text-md-start mt-5">
               {/* <!-- Grid row --> */}
-              <div class="row mt-3">
+              <div className="row mt-3">
                 {/* <!-- Grid column --> */}
-                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                   {/* <!-- Content --> */}
-                  <h6 class="text-uppercase fw-bold mb-4">
-                    <i class="fas fa-gem"></i>Esparse Matrix Solutions Pvt Ltd
+                  <h6 className="text-uppercase fw-bold mb-4">
+                    <i className="fas fa-gem"></i>Esparse Matrix Solutions Pvt Ltd
                   </h6>
                   <p>
                     Esparse Matrix Solution Private Limited is a software
@@ -67,13 +67,13 @@ export default function Footer1() {
                 {/* <!-- Grid column --> */}
 
                 {/* <!-- Grid column --> */}
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                   {/* <!-- Links --> */}
-                  <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+                  <h6 className="text-uppercase fw-bold mb-4">Products</h6>
                   <p>
                     <a
                       href="#!"
-                      class="text-reset"
+                      className="text-reset"
                       onClick={() => gotohome()}
                       style={{ textDecoration: "none" }}
                     >
@@ -83,7 +83,7 @@ export default function Footer1() {
                   <p>
                     <a
                       href="#!"
-                      class="text-reset"
+                      className="text-reset"
                       onClick={() => gotoaboutus()}
                       style={{ textDecoration: "none" }}
                     >
@@ -93,7 +93,7 @@ export default function Footer1() {
                   <p>
                     <a
                       href="#!"
-                      class="text-reset"
+                      className="text-reset"
                       onClick={() => gotoservices()}
                       style={{ textDecoration: "none" }}
                     >
@@ -103,7 +103,7 @@ export default function Footer1() {
                   <p>
                     <a
                       href="#!"
-                      class="text-reset"
+                      className="text-reset"
                       onClick={() => gotocareer()}
                       style={{ textDecoration: "none" }}
                     >
@@ -113,7 +113,7 @@ export default function Footer1() {
                   <p>
                     <a
                       href="#!"
-                      class="text-reset"
+                      className="text-reset"
                       onClick={() => gotoblog()}
                       style={{ textDecoration: "none" }}
                     >
@@ -123,7 +123,7 @@ export default function Footer1() {
                   <p>
                     <a
                       href="#!"
-                      class="text-reset"
+                      className="text-reset"
                       onClick={() => gotocontactus()}
                       style={{ textDecoration: "none" }}
                     >
@@ -134,13 +134,13 @@ export default function Footer1() {
                 {/* <!-- Grid column --> */}
 
                 {/* <!-- Grid column --> */}
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                   {/* <!-- Links --> */}
-                  <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+                  <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
                   <p>
                     <a
                       href="#!"
-                      class="text-reset"
+                      className="text-reset"
                       style={{ textDecoration: "none" }}
                     >
                       Term & Services
@@ -149,7 +149,7 @@ export default function Footer1() {
                   <p>
                     <a
                       href="#!"
-                      class="text-reset"
+                      className="text-reset"
                       style={{ textDecoration: "none" }}
                     >
                       Privacy Policy
@@ -158,7 +158,7 @@ export default function Footer1() {
                   <p>
                     <a
                       href="#!"
-                      class="text-reset"
+                      className="text-reset"
                       style={{ textDecoration: "none" }}
                     >
                       Disclaimer
@@ -167,7 +167,7 @@ export default function Footer1() {
                   <p>
                     <a
                       href="#!"
-                      class="text-reset"
+                      className="text-reset"
                       style={{ textDecoration: "none" }}
                     >
                       Sitemap
@@ -177,19 +177,19 @@ export default function Footer1() {
                 {/* <!-- Grid column --> */}
 
                 {/* <!-- Grid column --> */}
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                   {/* <!-- Links --> */}
-                  <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                  <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
                   <p>
-                    <i class="fas fa-home"></i> 133/1, Spectrum Building,
+                    <i className="fas fa-home"></i> 133/1, Spectrum Building,
                     Gurudwara Colony, Akurdi, Pune-411033
                   </p>
                   <p>
-                    <i class="fas fa-envelope "></i>
+                    <i className="fas fa-envelope "></i>
                     eSparsematrix@gmail.com
                   </p>
                   <p>
-                    <i class="fas fa-phone"></i>(+91) 8459694413
+                    <i className="fas fa-phone"></i>(+91) 8459694413
                   </p>
                 </div>
                 {/* <!-- Grid column --> */}
@@ -201,7 +201,7 @@ export default function Footer1() {
 
           {/* <!-- Copyright --> */}
           <div
-            class=" p-4 "
+            className=" p-4 "
             style={{ backgroundColor: "#000000", color: "#F7EA82" }}
           >
             <a href="#!" onClick={() => gotohome()} style={{ textDecoration: "none", color:"#F7EA82" }}>eSparse Matrix Solutions Pvt Ltd.</a>&nbsp;&nbsp;All Rights Reserved. 2023

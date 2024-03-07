@@ -14,14 +14,14 @@ function Contactus() {
       <center>
         <div className="contactus-cnt1">
           <div className="map">
-            <iframe className="map-image"
+            <iframe title="google map" className="map-image"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.4167857950497!2d73.76220707368299!3d18.64528406535578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b9c359982581%3A0x7981a7c5d2397867!2seSparse%20Matrix%20Solutions%20Pvt%20Ltd%20%7C%20software%20company!5e0!3m2!1sen!2sin!4v1685983247086!5m2!1sen!2sin"
               width="98%"
               height="45%"
               // style="border:0;"
-              allowfullscreen=""
+              allowFullScreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
           <div className="get-in-touch">

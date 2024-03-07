@@ -54,7 +54,7 @@ function Header() {
         <Navbar.Brand className="fs-5 fw-normal" href="#home">
           <img src={img} alt="" width={50} height={50} onClick={() => gotohome()}/>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" bac />
+        <Navbar.Toggle aria-controls="basic-navbar-nav bac"  />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link
@@ -75,7 +75,7 @@ function Header() {
               title="Services"
               className="mx-3 fs-5 fw-normal"
               id="basic-nav-dropdown"
-              backgroundColor="#F5F4F0"
+              backgroundcolor="#F5F4F0"
             >
               <NavDropdown.Item href="#" onClick={() => gotowebd()}>
                 WEB DEVELOPMENT
@@ -122,10 +122,10 @@ function Header() {
           </Nav>
             <div className="contactbtn">
               <button
-                class="btn btn-outline-dark my-2 my-sm-0 "
+                className="btn btn-outline-dark my-2 my-sm-0 "
                 type="submit"
                 onClick={() => gotocontactus()}
-                style={{marginTop:50, backgroundColor:'black', color: '#EBEAE6'}}
+                style={{marginTop:50, backgroundcolor:'black', color: '#EBEAE6'}}
               >
                 Contact Us
               </button>
