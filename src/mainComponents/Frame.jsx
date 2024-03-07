@@ -13,7 +13,7 @@ export default function Frame() {
                             Join Our Talent Community</h3></div>
                         <div className="communitydesc"> <p> ⁕ Fresher or experienced, we welcome all. We offer excellent training opportunity with timely feedback system to help you do better. We are always looking to add talented people to our work force who have the zeal to succeed and thrive in a dynamic world of technology. Come join us, we would love to have you on board and provide you with opportunities to grow with us.</p>
                             <p>⁕ Can’t find what you looking for? Do tell us about the kind of work which interests you. Leave your details and we shall notify you when matching career opportunities open up.</p>
-                            <a href="">Join Us & Explore the Possibilities</a>
+                            <a href="#link">Join Us & Explore the Possibilities</a>
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ export default function Frame() {
                         <button className="signupbtn my-3">Sign in</button>
 
                     </div>
-                    <a href="">Powered by eSparse Matrix Solution</a>
+                    <a href="#link">Powered by eSparse Matrix Solution</a>
                 </div>
             </div>
 

@@ -7,7 +7,6 @@ import img2 from "../component/Mlogo/image4.png";
 import img3 from "../component/Mlogo/image5.png";
 import img4 from "../component/Mlogo/image7.png";
 import img5 from "../component/Mlogo/image6.png";
-import { Button } from "bootstrap";
 
 function Blog() {
   return (
@@ -32,7 +31,7 @@ function Blog() {
                 and—most importantly—revenue. And as is widely known, a lot
                 needs to happen when working toward this p...
               </div>
-              <a href="#" style={{textDecoration:'none'}}>Read More</a>
+              <a href="#link" style={{textDecoration:'none'}}>Read More</a>
             </div>
             <div className="blog-img">
               <div className="img-crm1">
@@ -64,7 +63,7 @@ function Blog() {
                 we visit new areas. The deathly fear of waiting in long lines at
                 airports and for a long...
               </div>
-              <a href="#" style={{textDecoration:'none'}}>Read More</a>
+              <a href="#link" style={{textDecoration:'none'}}>Read More</a>
             </div>
           </div>
           <div className="blog-content-detail">
@@ -78,7 +77,7 @@ function Blog() {
                 developing its digital landscape at a time when every industry
                 is considering and implementi...
               </div>
-              <a href="#" style={{textDecoration:'none'}}>Read More</a>
+              <a href="#link" style={{textDecoration:'none'}}>Read More</a>
             </div>
             <div className="blog-img">
               <div className="img-crm1">

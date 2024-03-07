@@ -33,9 +33,6 @@ export default function GetinTouchForm() {
   function handleSubject(event) {
     setSubject(event.target.value);
   }
-  function handleComment(event) {
-    setComment(event.target.value);
-  }
 
   return (
     <>
@@ -90,7 +87,6 @@ export default function GetinTouchForm() {
             <label>Subject</label>
           </div>
           <div className="detail e1">
-            {/* <input type="text" value={Comment} onChange={handleComment} className="comment" name="" required="" /> */}
             <textarea
               name="textarea"
               rows={4}
