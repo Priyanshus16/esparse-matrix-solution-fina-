@@ -6,7 +6,6 @@ export default function GetinTouchForm() {
   const [Mobile, setMobile] = useState("");
   const [Email, setEmail] = useState("");
   const [Subject, setSubject] = useState("");
-  const [Comment, setComment] = useState("");
 
   function handleClick(event) {
     event.preventDefault();
